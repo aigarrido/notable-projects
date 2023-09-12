@@ -30,7 +30,7 @@ var kernelBoxBlur = [3][3]float64{
 	{1.0 / 9.0, 1.0 / 9.0, 1.0 / 9.0},
 }
 
-// Kernel map
+// Kernel mapping
 var kernels = map[int][3][3]float64{
 	0: sharpenBlur,
 	1: ridgeBlur,

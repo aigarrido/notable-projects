@@ -10,7 +10,6 @@ args = parser.parse_args()
 
 
 # open image
-
 img = Image.open(args.input)
 
 
